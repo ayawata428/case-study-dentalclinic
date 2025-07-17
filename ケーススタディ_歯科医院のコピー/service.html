@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>さわやか歯科クリニック</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!---------- ヘッダー ---------->
+  <header>
+    <div class="header-categoly">
+    <div class="header-inner-categoly">
+      <div class="logo">
+      <a href="index.html">
+      <img src="images/logo2.svg" alt="ロゴ">
+    </a>
+    </div>
+    <!-- ナビゲーション -->
+     <nav id="nav-pc">
+     <ul>
+      <li><a href="news.html">お知らせ</a></li>
+      <li><a href="doctor.html">スタッフ紹介</a></li>
+      <li><a href="service.html">診療案内</a></li>
+      <li><a href="index.html#access">アクセス</a></li>
+      <li><a href="contact.html">お問い合わせ</a></li>
+     </ul>
+    </nav>
+    </div>
+  </div>
+
+  
+   <!-- スマホ用メニューボタン -->
+   <img id="menu-sp" src="images/button-menu.png" alt="ナビゲーションを開く" onclick="document.getElementById('nav-sp').style.display = 'block'">
+   <!-- スマホ用ナビゲーション -->
+   <nav id="nav-sp">
+     <ul>
+       <li>
+         <img id="close" src="images/button-close.png" alt="ナビゲーションを閉じる" onclick="document.getElementById('nav-sp').style.display = 'none'">
+       </li>
+       <li><a class="menu" href="news.html" onclick="document.getElementById('nav-sp').style.display = 'none'">お知らせ</a></li>
+       <li><a class="menu" href="doctor.html" onclick="document.getElementById('nav-sp').style.display = 'none'">スタッフ紹介</a></li>
+       <li><a class="menu" href="service.html" onclick="document.getElementById('nav-sp').style.display = 'none'">診療案内</a></li>
+       <li><a class="menu" href="index.html#access" onclick="document.getElementById('nav-sp').style.display = 'none'">アクセス</a></li>
+       <li><a class="menu" href="contact.html" onclick="document.getElementById('nav-sp').style.display = 'none'">お問い合わせ</a></li>
+     </ul>
+ </nav>
+  </header>
+
+  <!-- 見出し -->
+   <div class="categoly-title">
+    <h1>診療内容</h1>
+   </div>
+
+   <div class="service-page-content">
+    <div class="service-page-inner">
+      <h1>一般歯科</h1>
+      <div class="service-page-item">
+        <div class="service-page-image">
+          <img src="images/img1 1.png" alt="一般歯科">
+        </div>
+        <div class="service-page-text">
+          <h3>
+            むし歯や歯周病の治療を行い、患者さんの健康な歯を守るための基本的なケア を提供します。痛みを抑えた治療を心がけ、できるだけ歯を残す治療 を大切にしています。
+          </h3>
+          <p>
+            <span>治療内容</span><br>
+            むし歯の治療・詰め物・かぶせ物<br>
+            歯周病の治療・歯石除去<br>
+            神経の治療（根管治療）<br>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="service-page-inner">
+      <h1>小児歯科</h1>
+      <div class="service-page-item">
+        <div class="service-page-image">
+          <img src="images/image 2.png" alt="小児歯科">
+        </div>
+        <div class="service-page-text">
+          <h3>
+          お子さまの歯の健康を守るために、むし歯の予防と治療を中心に、楽しく通える歯医者を目指しています。初めての歯医者さんでも安心できるよう、やさしく丁寧な対応を心がけています。
+          </h3>
+          <p>
+            <span>治療内容</span><br>
+            乳歯のむし歯治療<br>
+            シーラント（むし歯予防処置）<br>
+            フッ素塗布・歯磨き指導<br>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="service-page-inner">
+      <h1>口腔外科</h1>
+      <div class="service-page-item">
+        <div class="service-page-image">
+          <img src="images/image 3.png" alt="口腔外科">
+        </div>
+        <div class="service-page-text">
+          <h3>
+           親知らずの抜歯や顎関節症など、お口の中の外科的な治療を専門的に行います。痛みや負担の少ない治療を心がけ、患者さん一人ひとりに合わせた適切な治療 を提供します。
+          </h3>
+          <p>
+            <span>治療内容</span><br>
+            親知らずの抜歯<br>
+            顎関節症の治療 口内炎<br>
+            粘膜疾患の診療<br>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="service-page-inner">
+      <h1>予防歯科</h1>
+      <div class="service-page-item">
+        <div class="service-page-image">
+          <img src="images/image 1.png" alt="予防歯科">
+        </div>
+        <div class="service-page-text">
+          <h3>
+          「痛くなってから行く」のではなく、むし歯や歯周病を防ぐことを目的とした診療です。定期的な検診とクリーニングで、お口の健康を長く保ちましょう。
+          </h3>
+          <p>
+            <span>治療内容</span><br>
+            親知らずの抜歯<br>
+            顎関節症の治療 口内炎<br>
+            粘膜疾患の診療<br>
+          </p>
+        </div>
+      </div>
+    </div>
+   </div>
+
+
+   <!---------- 予約 ---------->
+   <section id="reserved">
+    <div class="reserved-content">
+    <h2>ご予約はオンラインで24時間受付中です。</h2>
+    <p>
+      当院は完全予約制です。予約なしで来院された場合、<br>
+      待ち時間が発生することがあります。ご了承ください。
+    </p>
+    <div class="reserved-btn-end">
+      <h2>ご予約はこちら</h2>
+    </div>
+  </div>
+   </section>
+
+<!-- フッター -->
+<footer>
+<div class="footer-inner">
+
+   <!-- ナビゲーション -->
+    <nav class="footer-nav">
+      <ul>
+        <li><a href="newshtml">お知らせ</a></li>
+            <li><a href="doctor.html">スタッフ紹介</a></li>
+            <li><a href="service.html">診療案内</a></li>
+            <li><a href="index.html#access">アクセス</a></li>
+            <li><a href="contact.html">お問い合わせ</a></li>
+      </ul>
+    </nav>
+
+    <!-- ロゴ -->
+   <div class="footer-logo">
+    <a href="index.html">
+   <img src="images/logo2.svg" alt="フッターのロゴ">
+  </a>
+</div>
+
+     <!-- コピーライト -->
+      <div class="copyright">
+        <small>&copy; さわやか歯科クリニック All right reserved.</small>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
+
+
+   

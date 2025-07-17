@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>さわやか歯科クリニック</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!---------- ヘッダー ---------->
+  <header>
+    <div class="header-categoly">
+    <div class="header-inner-categoly">
+      <div class="logo">
+      <a href="index.html">
+      <img src="images/logo2.svg" alt="ロゴ">
+    </a>
+    </div>
+    <!-- ナビゲーション -->
+     <nav id="nav-pc">
+     <ul>
+      <li><a href="news.html">お知らせ</a></li>
+      <li><a href="doctor.html">スタッフ紹介</a></li>
+      <li><a href="service.html">診療案内</a></li>
+      <li><a href="index.html#access">アクセス</a></li>
+      <li><a href="contact.html">お問い合わせ</a></li>
+     </ul>
+    </nav>
+    </div>
+  </div>
+
+  
+   <!-- スマホ用メニューボタン -->
+   <img id="menu-sp" src="images/button-menu.png" alt="ナビゲーションを開く" onclick="document.getElementById('nav-sp').style.display = 'block'">
+   <!-- スマホ用ナビゲーション -->
+   <nav id="nav-sp">
+     <ul>
+       <li>
+         <img id="close" src="images/button-close.png" alt="ナビゲーションを閉じる" onclick="document.getElementById('nav-sp').style.display = 'none'">
+       </li>
+       <li><a class="menu" href="news.html" onclick="document.getElementById('nav-sp').style.display = 'none'">お知らせ</a></li>
+       <li><a class="menu" href="doctor.html" onclick="document.getElementById('nav-sp').style.display = 'none'">スタッフ紹介</a></li>
+       <li><a class="menu" href="service.html" onclick="document.getElementById('nav-sp').style.display = 'none'">診療案内</a></li>
+       <li><a class="menu" href="index.html#access" onclick="document.getElementById('nav-sp').style.display = 'none'">アクセス</a></li>
+       <li><a class="menu" href="contact.html" onclick="document.getElementById('nav-sp').style.display = 'none'">お問い合わせ</a></li>
+     </ul>
+ </nav>
+  </header>
+
+  <!-- 見出し -->
+   <div class="categoly-title">
+    <h1>お知らせ</h1>
+   </div>
+
+   <div class="news-content">
+    <div class="news-item-1">
+      <div class="tag">
+        <p>NEWS</p>
+      </div>
+      <div class="news-information">
+        <h2>ホームページが新しくなりました</h2>
+        <p>よろしくお願いします</p>
+        <p><span>2025.07.25</span></p>
+      </div>
+    </div>
+
+    <div class="news-item-2">
+      <div class="search">
+        <p>検索</p>
+      </div>
+      
+      <div class="item-categoly">
+        <h2>CATEGOLY <span>カテゴリー</span></h2>
+        <h3>NEWS<br><span>新着情報</span></h3>
+        <h3>BLOG<br><span>クリニックブログ</span></h3>
+      </div>
+
+      <div class="archive">
+        <h2>ARCHIVE <span>月間アーカイブ</span></h2>
+        <h3>▼ 2025年(2)</h3>
+      </div>
+    </div>
+   </div>
+
+
+   <!---------- 予約 ---------->
+   <section id="reserved">
+    <div class="reserved-content">
+    <h2>ご予約はオンラインで24時間受付中です。</h2>
+    <p>
+      当院は完全予約制です。予約なしで来院された場合、<br>
+      待ち時間が発生することがあります。ご了承ください。
+    </p>
+    <div class="reserved-btn-end">
+      <h2>ご予約はこちら</h2>
+    </div>
+  </div>
+   </section>
+
+<!-- フッター -->
+<footer>
+<div class="footer-inner">
+
+   <!-- ナビゲーション -->
+    <nav class="footer-nav">
+      <ul>
+        <li><a href="newshtml">お知らせ</a></li>
+            <li><a href="doctor.html">スタッフ紹介</a></li>
+            <li><a href="service.html">診療案内</a></li>
+            <li><a href="index.html#access">アクセス</a></li>
+            <li><a href="contact.html">お問い合わせ</a></li>
+      </ul>
+    </nav>
+
+    <!-- ロゴ -->
+   <div class="footer-logo">
+    <a href="index.html">
+   <img src="images/logo2.svg" alt="フッターのロゴ">
+  </a>
+</div>
+
+     <!-- コピーライト -->
+      <div class="copyright">
+        <small>&copy; さわやか歯科クリニック All right reserved.</small>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
+
+
+   

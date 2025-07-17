@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>さわやか歯科クリニック</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!---------- ヘッダー ---------->
+  <header>
+    <div class="header-categoly">
+    <div class="header-inner-categoly">
+      <div class="logo">
+      <a href="index.html">
+      <img src="images/logo2.svg" alt="ロゴ">
+    </a>
+    </div>
+    <!-- ナビゲーション -->
+     <nav id="nav-pc">
+     <ul>
+      <li><a href="news.html">お知らせ</a></li>
+      <li><a href="doctor.html">スタッフ紹介</a></li>
+      <li><a href="service.html">診療案内</a></li>
+      <li><a href="index.html#access">アクセス</a></li>
+      <li><a href="contact.html">お問い合わせ</a></li>
+     </ul>
+    </nav>
+    </div>
+  </div>
+
+ 
+   <!-- スマホ用メニューボタン -->
+   <img id="menu-sp" src="images/button-menu.png" alt="ナビゲーションを開く" onclick="document.getElementById('nav-sp').style.display = 'block'">
+   <!-- スマホ用ナビゲーション -->
+   <nav id="nav-sp">
+     <ul>
+       <li>
+         <img id="close" src="images/button-close.png" alt="ナビゲーションを閉じる" onclick="document.getElementById('nav-sp').style.display = 'none'">
+       </li>
+       <li><a class="menu" href="news.html" onclick="document.getElementById('nav-sp').style.display = 'none'">お知らせ</a></li>
+       <li><a class="menu" href="doctor.html" onclick="document.getElementById('nav-sp').style.display = 'none'">スタッフ紹介</a></li>
+       <li><a class="menu" href="service.html" onclick="document.getElementById('nav-sp').style.display = 'none'">診療案内</a></li>
+       <li><a class="menu" href="index.html#access" onclick="document.getElementById('nav-sp').style.display = 'none'">アクセス</a></li>
+       <li><a class="menu" href="contact.html" onclick="document.getElementById('nav-sp').style.display = 'none'">お問い合わせ</a></li>
+     </ul>
+ </nav>
+  </header>
+
+  <!-- 見出し -->
+   <div class="categoly-title">
+    <h1>スタッフ紹介</h1>
+   </div>
+
+   <div class="doctor-content">
+    <div class="doctor-item">
+      <div class="doctor-item-image">
+        <img src="images/doctor2_matsumoto.jpg" alt="院長の松本">
+      </div>
+      <div class="doctor-item-text">
+        <h2>院長  松本貴子 <span>まつもとたかこ</span></h2>
+        <p>
+          患者さん一人ひとりに寄り添い、安心して通える歯科医院を目指しています。痛みの少ない治療と、わかりやすい説明を心がけ、地域の皆さまのお口の健康をサポートいたします。歯医者が苦手な方も、リラックスできるよう丁寧に対応いたしますので、どうぞ安心してご来院ください。
+          <br>
+          <br>
+          得意な治療: むし歯治療・予防歯科・小児歯科<br>
+          趣味: 旅行・読書・カフェ巡り
+        </p>
+      </div>
+    </div>
+    
+    <div class="doctor-item">
+      <div class="doctor-item-image">
+        <img src="images/doctor1_tanaka.jpg" alt="医師の田中">
+      </div>
+      <div class="doctor-item-text">
+        <h2>医師  田中健吾 <span>たなかけんご</span></h2>
+        <p>
+          お口の健康は、全身の健康にも大きく関わっています。患者さんが長く健康な歯を維持できるよう、最適な治療とアドバイスを提供いたします。治療に対する不安や疑問があれば、何でもお気軽にご相談ください。
+          <br>
+          <br>
+          得意な治療: 口腔外科・親知らずの抜歯・歯周病治療<br>
+          趣味: ランニング・映画鑑賞・登山
+        </p>
+      </div>
+    </div>
+
+    <div class="doctor-item">
+      <div class="doctor-item-image">
+        <img src="images/staff1suzuki 1.png" alt="歯科衛生士の鈴木">
+      </div>
+      <div class="doctor-item-text">
+        <h2>歯科衛生士  鈴木由佳 <span>すずきゆか</span></h2>
+        <p>
+          患者さんのお口の健康を守るため、クリーニングや予防ケアを担当しています。歯磨きのコツや、デンタルフロスの使い方など、日々のケアについてもお伝えしていますので、お気軽にご相談ください。
+          <br>
+          <br>
+          得意な分野: クリーニング・ホワイトニング・歯磨き指導<br>
+          趣味: ヨガ・お菓子作り・音楽鑑賞
+        </p>
+      </div>
+    </div>
+   </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <!---------- 予約 ---------->
+   <section id="reserved">
+    <div class="reserved-content">
+    <h2>ご予約はオンラインで24時間受付中です。</h2>
+    <p>
+      当院は完全予約制です。予約なしで来院された場合、<br>
+      待ち時間が発生することがあります。ご了承ください。
+    </p>
+    <div class="reserved-btn-end">
+      <h2>ご予約はこちら</h2>
+    </div>
+  </div>
+   </section>
+
+<!-- フッター -->
+<footer>
+<div class="footer-inner">
+
+   <!-- ナビゲーション -->
+    <nav class="footer-nav">
+      <ul>
+        <li><a href="newshtml">お知らせ</a></li>
+            <li><a href="doctor.html">スタッフ紹介</a></li>
+            <li><a href="service.html">診療案内</a></li>
+            <li><a href="index.html#access">アクセス</a></li>
+            <li><a href="contact.html">お問い合わせ</a></li>
+      </ul>
+    </nav>
+
+    <!-- ロゴ -->
+   <div class="footer-logo">
+    <a href="index.html">
+   <img src="images/logo2.svg" alt="フッターのロゴ">
+  </a>
+</div>
+
+     <!-- コピーライト -->
+      <div class="copyright">
+        <small>&copy; さわやか歯科クリニック All right reserved.</small>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
+
+
+   
